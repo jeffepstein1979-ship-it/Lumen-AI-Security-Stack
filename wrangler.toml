@@ -1,0 +1,16 @@
+name = "lumen-ai-platform"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+ENVIRONMENT = "production"
+VAULT_URL = "https://lumen-ai-core.shadowkiller.workers.dev/secure"
+
+[[kv_namespaces]]
+binding = "LUMEN_KV"
+id = "7d8992ee189242bb9eb6271ae0e1029c"
+
+[[d1_databases]]
+binding = "LUMEN_DB"
+database_name = "lumen_db"
+database_id = "314f39d4-3fc7-48a1-bca5-694f4a081f83"
